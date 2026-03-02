@@ -8,7 +8,6 @@ const ToasterContext = () => {
       <Toaster />
     </div>
   );
-  
 };
 
 export default ToasterContext;
