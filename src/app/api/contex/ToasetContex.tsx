@@ -7,8 +7,8 @@ const ToasterContext = () => {
     <div className="z-99999">
       <Toaster />
     </div>
+    //New changes
   );
-  
 };
 
 export default ToasterContext;
