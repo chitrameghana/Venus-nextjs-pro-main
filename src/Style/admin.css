@@ -1,0 +1,108 @@
+/* Global admin styles for login and user pages */
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: #08307a;
+}
+
+.container {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  width: 320px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border-radius: 8px;
+  text-align: center;
+  background: #fff;
+}
+
+.inputGroup {
+  position: relative;
+  margin: 1.5rem 0;
+  width: 100%;
+}
+
+.inputGroup input {
+  width: 100%;
+  padding: 0.8rem 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+.inputGroup label {
+  position: absolute;
+  top: -10px;
+  left: 8px;
+  font-size: 0.75rem;
+  background: #fff;
+  padding: 0 4px;
+  color: #555;
+}
+
+button {
+  width: 100%;
+  padding: 0.9rem;
+  background: #0E3F8B;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #092c63;
+}
+
+/* Table styles (user master page) */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.table th {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.table tr:nth-child(even) {
+  background: #fafafa;
+}
+
+/* Navigation links */
+nav {
+  width: 100%;
+  padding: 1rem;
+  background: #fff;
+  display: flex;
+  gap: 1rem;
+}
+nav a {
+  color: #0E3F8B;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #092c63;
+}
