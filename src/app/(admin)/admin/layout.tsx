@@ -38,9 +38,23 @@ export default function AdminLayout({
         <h2 className={styles.logo}>Admin</h2>
         <nav>
           <ul>
-            <li><a href="/admin">Dashboard</a></li>
+            <li><a href="/admin/dashboard">Dashboard</a></li>
             <li><a href="/admin/users">Users</a></li>
             <li><a href="/admin/settings">Settings</a></li>
+                        <li><a href="/admin/package">Packages</a></li>
+                                                <li><a href="/admin/offers">Offers</a></li>
+                                                <li><a href="/admin/paymentlist">Payment List</a></li>
+                                                <li><a href="/admin/joblist">Job List</a></li>
+                                                <li><a href="/admin/content">Content Master</a></li>
+                                                <li><a href="/admin/slider">Slider Master</a></li>
+
+
+
+
+
+
+
+
           </ul>
         </nav>
       </aside>
