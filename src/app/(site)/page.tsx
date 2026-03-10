@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: "Upaya",
 };
 
-import PricingPage from './(site)/pricing/page';
+//import PricingPage from './(site)/pricing/page';
 
 export default function Home() {
   return (

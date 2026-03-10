@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-
+import styles from "../admin/page.module.css";
 
 export default function Login() {
   const [form, setForm] = useState({ email: "", password: "" });
@@ -13,15 +13,15 @@ export default function Login() {
   };
 
   const handleLogin = () => {
-    // For demo, accept any credentials
     router.push("/admin/users");
   };
 
   return (
-    <div className="container">
-      <div className="card">
+    <div className={styles.container}>
+      <div className={styles.card}>
         <h2>Admin Login</h2>
-        <div className="inputGroup">
+
+        <div className={styles.inputGroup}>
           <input
             type="email"
             name="email"
@@ -31,7 +31,8 @@ export default function Login() {
           />
           <label>Email</label>
         </div>
-        <div className="inputGroup">
+
+        <div className={styles.inputGroup}>
           <input
             type="password"
             name="password"
@@ -41,6 +42,7 @@ export default function Login() {
           />
           <label>Password</label>
         </div>
+
         <button onClick={handleLogin}>Login</button>
       </div>
     </div>
